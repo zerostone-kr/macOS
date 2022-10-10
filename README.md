@@ -11,5 +11,6 @@ open .bash_profile
 export PATH=${PATH}:(추가할 경로)
 예) export PATH=${PATH}:/Users/zerostone/development/flutter/bin
 
-## profile 적용
-source .bash_profile 
+## profile 적용 및 확인
+source .bash_profile
+echo $PATH
